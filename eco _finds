@@ -1,0 +1,17 @@
+import 'dart:convert';
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        backgroundColor: Colors.cyan,
+        appBar: AppBar(
+          title: Text('ECO FINDS'),
+          backgroundColor: Colors.blueGrey,
+        ),body: Image(image: NetworkImage('https://static.vecteezy.com/system/resources/previews/026/807/704/large_2x/eco-friendly-house-with-a-modern-design-and-a-strong-emphasis-on-sustainability-3d-render-generative-ai-photo.jpg')),
+      ),
+    ),
+  );
+}
